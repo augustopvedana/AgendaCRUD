@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "build": "webpack -w"
+    "build": "netlify deploy --prod",
+    "dev": "webpack -w"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
     "helmet": "^6.1.5",
     "mongoose": "^7.1.0",
     "netlify-cli": "^16.0.1",
+    "netlify-lambda": "^2.0.16",
     "regenerator-runtime": "^0.13.11",
     "serverless-http": "^3.2.0",
     "style-loader": "^3.3.2",
@@ -42,5 +44,3 @@
     "webpack-cli": "^5.0.2"
   }
 }
-
-
