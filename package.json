@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "build": "netlify deploy --prod",
-    "dev": "webpack -w"
+    "dev": "build -w"
   },
   "keywords": [],
   "author": "",
